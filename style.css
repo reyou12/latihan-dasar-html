@@ -65,7 +65,14 @@ nav ul li a:hover {
 }
 
 .main {
+  width: 540px;
   padding: 15px 30px;
+  float: left;
+}
+
+.aside {
+  width: 200px;
+  float: right;
 }
 
 h2 {
@@ -78,6 +85,7 @@ p {
 
 footer {
   background-color: brown;
+  clear: both;
 }
 footer p {
   color: antiquewhite;
